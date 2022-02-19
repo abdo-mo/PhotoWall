@@ -1,3 +1,13 @@
+# Photo Wall
+wep app that you can add images by url
+
+## Build with
+* HTML
+* CSS
+* JS
+* React
+* Redux
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

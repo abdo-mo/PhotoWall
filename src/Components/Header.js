@@ -7,9 +7,9 @@ const Header = () => {
     return (
         <header className="header">
             <h1>Photo Wall</h1>
-            <h4>counter {counter}</h4>
+            {/* <h4>counter {counter}</h4>
             <button onClick = {() => dispatch(increment())} >+</button>
-            <button onClick={() => dispatch(decrement())} >-</button>
+            <button onClick={() => dispatch(decrement())} >-</button> */}
             
         </header>
     );

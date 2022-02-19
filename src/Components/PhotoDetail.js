@@ -15,7 +15,7 @@ const PhotoDetail = ({ addComment }) => {
     const comments = photo['comment'];
     const navigate = useNavigate();
     const handelKeyDown = (e) => {
-        if (e.key === "Enter" && text != '') {
+        if (e.key === "Enter" && text !== '') {
             const commentData = {text, photo}
             addComment(commentData);
             navigate("/" + photo_id)
