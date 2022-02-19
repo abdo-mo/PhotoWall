@@ -1,13 +1,93 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body{
+  background-color: #e2dede;
 }
+.container{
+  padding:10px;
+  margin: 100px 180px 0 180px;
+  text-align: center;
+  background-color:#eee;
+}
+.header{
+  font-size: x-large;
+  font-family: cursive;
+}
+.add{
+  width:50px;
+  height:50px;
+  margin:0 auto;
+}
+.photos{
+  margin: 0 auto;
+  width:750px;
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  grid-column-gap: 30px;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+}
+.card{
+  border:1px solid #ccc;
+  padding-bottom:40px;
+  margin-bottom:30px;
+  
+}
+.card h3{
+  text-align: start;
+  padding: 5px;
+  margin:20px;
+  color:gray;
+}
+.comment-icons{
+  width:30px;
+  height:30px;
+  display:flex;
+  align-items: center;
+}
+.comment-icons span {
+  margin-left:5px;
+}
+.remove-comment{
+  display:flex;
+  justify-content: space-around;
+}
+.remove-comment button{
+  color:red;
+}
+.add-form{
+  width:500px;
+  margin:0 auto;
+  background-color: #ccc;
+}
+.add-form h1{
+  text-align: center;
+  padding:20px;
+}
+.add-form ul{
+  list-style: none;
+  padding:10px;
+}
+.add-form ul li{
+  margin:10px;
+}
+.detail{
+  display:grid;
+  grid-template-columns:2fr 1fr;
+}
+.photoDetail{
+  width:100%;
+}
+.photoDetail .card{
+  /* min-width:100%; */
+  width: 550px;
+  padding:10px;
+
+}
+.deleteAll{
+  padding:7px;
+  width:300px;
+  text-align: center;
+  background-color:red;
+  color:#ccc;
+  font-weight:bold;
+  border-radius:20px;
+  margin:0 auto;
 }
