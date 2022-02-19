@@ -8,6 +8,8 @@ wep app that you can add images by url
 * React
 * Redux
 
+![alt text](https://github.com/abdo-mo/PhotoWall/blob/main/images/img.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
