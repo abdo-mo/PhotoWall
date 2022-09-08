@@ -1,5 +1,5 @@
 # Photo Wall
-wep app that you can add images by url
+React web app, you can add images by their URLs
 
 ## Build with
 * HTML
